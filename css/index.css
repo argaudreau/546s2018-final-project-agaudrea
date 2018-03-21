@@ -1,0 +1,15 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #212529;
+}
+
+body {
+  background-color: #212529;
+}
+
+.main {
+  margin: 20px 15% 20px 15%;
+  padding: 16px;
+  background-color: #ffffff;
+}
