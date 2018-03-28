@@ -1,0 +1,19 @@
+Report - Version 1
+Adam Gaudreau
+
+======================
+ What I Did This Week
+======================
+For this week, I implemented point 3 (Viewing) and half of point 1 (Modeling). I'll describe both below.
+
+POINT 3
+The user is able to use the mouse to view the scene from multiple angles and orientations (as described in the manual).
+
+POINT 1 (half)
+I say half because the user has no control over what is rendered yet. However, I do create and store objects on the screen, such as the skybox, rotating cube, floor, and light source. I also added lighting and shadow effects.
+
+
+============================
+ What I'll Do For Next Week
+============================
+Next week, I'll finish up the other half of point 1 by adding an interface for users to add or remove shapes, and maybe customize them.
