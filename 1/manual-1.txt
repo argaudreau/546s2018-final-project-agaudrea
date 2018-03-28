@@ -1,0 +1,12 @@
+Manual - Version 1
+Adam Gaudreau
+
+============
+ How to use
+============
+To load the page, all you have to do is open the index.html file inside the 1/ directory. If there is no 1/ directory, just open the index.html file.
+When the page loads, you will see a red room with a floor in the middle, with a cube floating above it. You can change the view in three ways:
+1. Hold down the left mouse button and move your mouse around. This will orbit around the center.
+2. You can scroll in and out using the mouse wheel, and this will scale the view in and out from the origin.
+3. Hold down the right mouse button and move your mouse around. This will pan the scene.
+As of now, the user is only able to change the camera around.
