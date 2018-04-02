@@ -11,3 +11,17 @@ btnManual1.addEventListener('click', function() {
 btnView1.addEventListener('click', function() {
   window.location = "/~agaudrea/427546s2018/final-project/1/index.html";
 });
+
+// Week 2
+let btnReport2 = document.getElementById('button-report-2'),
+  btnManual2 = document.getElementById('button-manual-2'),
+  btnView2 = document.getElementById('button-view-2');
+btnReport2.addEventListener('click', function() {
+  window.location = "/~agaudrea/427546s2018/final-project/2/report-2.txt";
+});
+btnManual2.addEventListener('click', function() {
+  window.location = "/~agaudrea/427546s2018/final-project/2/manual-2.txt";
+});
+btnView2.addEventListener('click', function() {
+  window.location = "/~agaudrea/427546s2018/final-project/2/index.html";
+});
