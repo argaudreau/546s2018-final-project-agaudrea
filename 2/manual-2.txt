@@ -1,0 +1,25 @@
+Manual - Version 2
+Adam Gaudreau
+
+============
+ How to use
+============
+To load the page, all you have to do is open the index.html file inside the 2/ directory. If there is no 2/ directory, just open the index.html file.
+When the page loads, you will see a red room with a floor in the middle. 
+
+You can control the view in three ways:
+1. Hold down the left mouse button and move your mouse around. This will orbit around the center.
+2. You can scroll in and out using the mouse wheel, and this will scale the view in and out from the origin.
+3. Hold down the right mouse button and move your mouse around. This will pan the scene.
+
+The menu on the top-right is where you can change things about the environment. You can collapse or expand any of the submenus, and you can close and open the whole thing entirely. In it, you can:
+1. Spawn objects
+    - Choose what object, where to spawn it, and it's size.
+    - When you're happy with the configuration, press the "Spawn Object" button.
+2. Change the lighting
+    - Turn on or off ambient lighting, change its intensity, and its color.
+3. Delete (unspawn) objects
+    - Click on any spawned object (so not the floor or skybox), and it will highlight the object.
+    - Once an object is highlighted, press "Delete Object" to remove it.
+    - If you selected an item you don't want selected, click anywhere else to de-select it.
+

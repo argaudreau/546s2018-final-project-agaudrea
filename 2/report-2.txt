@@ -1,0 +1,20 @@
+Report - Version 2
+Adam Gaudreau
+
+======================
+ What I Did This Week
+======================
+For this week, I implemented point 1 (Modeling), and point 4 (Transform camera/lighting). I'll describe both below.
+
+POINT 1
+I did half of this point in the previous week, but I completed it this week. You can now spawn two objects (square and circle) and choose their size and where they're spawned. I will add more shapes and control over them in the coming weeks.
+
+POINT 4
+You are able to control some of the lighting now, only the ambient for now. You can turn it of and on, change its intensity and color too. 
+
+I also added the menu that controls the aforementioned additions.
+
+============================
+ What I'll Do For Next Week
+============================
+Next week, I'll add more objects to spawn, as well as change some of the textures and colors of the objects spawned. I may add more lighting controls as well.
