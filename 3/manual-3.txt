@@ -1,0 +1,29 @@
+Manual - Version 3
+Adam Gaudreau
+
+============
+ How to use
+============
+To load the page, all you have to do is open the index.html file inside the 3/ directory. If there is no 3/ directory, just open the index.html file.
+When the page loads, you will see a red room with a floor in the middle. 
+
+You can control the view in three ways:
+1. Hold down the left mouse button and move your mouse around. This will orbit around the center.
+2. You can scroll in and out using the mouse wheel, and this will scale the view in and out from the origin.
+3. Hold down the right mouse button and move your mouse around. This will pan the scene.
+
+The menu on the top-right is where you can change things about the environment. You can collapse or expand any of the submenus, and you can close and open the whole thing entirely. In it, you can:
+1. Spawn objects
+    - Choose what object to spawn
+    - Under the "Spawn Options" folder, you can set the spawn position and change the parameters for that shape.
+    - When you're happy with the configuration, press the "Spawn Object" button.
+    - Delete (unspawn) objects
+        - Click on any spawned object (so not the floor or skybox), and it will highlight the object.
+        - Once an object is highlighted, press "Delete Object" to remove it.
+        - If you selected an item you don't want selected, click anywhere else to de-select it.
+2. Transform objects (translate and rotate)
+    - To begin, spawn any object and click on it once it has spawned. You should see an orange highlight around it.
+    - Open the "Tranform Object" menu. You will see sliders for rotating and translating along all of the axes.
+        - The sliders will return back to the middle once the mouse has been "unclicked".
+3. Change the lighting
+    - Turn on or off ambient lighting, change its intensity, and its color.
