@@ -1,0 +1,18 @@
+Report - Version 3
+Adam Gaudreau
+
+======================
+ What I Did This Week
+======================
+For this week, I added more features to point 1 (Modeling), and point 2 (Transform  object). I'll describe both below.
+
+POINT 1
+I added several new shapesto spawn, all with configurable options: Rectangle, Cone, Cylinder, Tetrahedron, Octahedron, Dodecahedron, Torus, and Torus Knot. The configuration for each shape is no longer static, and each parameter for each shape can be set in the "Spawn Options" folder under the "Spawn" menu.
+
+POINT 2
+You are now able to translate and rotate any spawned object about the X, Y, and/or Z axis. 
+
+============================
+ What I'll Do For Next Week
+============================
+I will finish point 2 by adding settings unique to each shape so that it's parameters can change after they have been spawned to show real-time manipulation. I'll also work on some of the environmental settings such as wireframe, axis helper, lighting, etc.
