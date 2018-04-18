@@ -1,0 +1,15 @@
+Report - Version 4
+Adam Gaudreau
+
+======================
+ What I Did This Week
+======================
+For this week, I added a scale transformation and some environment settings, each described in detail below.
+- Under the transformation menu, you can scale any object about the X, Y, Z axes. 
+- Under the environment menu, you can change the color of the skybox, or show/hide the axis helper.
+- Under Lighting > Sun, you can control the directional light that comes from the sun (change (X,Y,Z) or orbit the sun).
+
+============================
+ What I'll Do For Next Week
+============================
+I'm going to add textures to spawnable objects, as well as the floor or maybe even the skybox.
