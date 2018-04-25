@@ -123,7 +123,7 @@ function initFloor() {
   floor.geometry = new THREE.BoxGeometry(10, FLOOR_OFFSET, 10);
   floor.material = new THREE.MeshStandardMaterial({ 
     metalness: 0,
-    map: new THREE.TextureLoader().load('textures/tile.png') 
+    map: new THREE.TextureLoader().load('textures/tile.jpg') 
   });
   floor.mesh = new THREE.Mesh(floor.geometry, floor.material);
   floor.mesh.position.set(0, -(FLOOR_OFFSET/2), 0);
@@ -323,7 +323,7 @@ function initGUI() {
         textureImage = 'textures/brick.jpg';
         break;
       case 'Tile':
-        textureImage = 'textures/tile.png';
+        textureImage = 'textures/tile.jpg';
         break;
     };
     floor.mesh.material = new THREE.MeshStandardMaterial({
@@ -423,7 +423,7 @@ function spawnObject() {
       mat = new THREE.MeshStandardMaterial({ map: new THREE.TextureLoader().load('textures/wood.jpg') });
       break;
     case 'Tile':
-      mat = new THREE.MeshStandardMaterial({ map: new THREE.TextureLoader().load('textures/tile.png') });
+      mat = new THREE.MeshStandardMaterial({ map: new THREE.TextureLoader().load('textures/tile.jpg') });
       break;
     case 'Grass':
       mat = new THREE.MeshStandardMaterial({ map: new THREE.TextureLoader().load('textures/grass.jpg') });
