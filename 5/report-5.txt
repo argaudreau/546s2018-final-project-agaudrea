@@ -1,0 +1,12 @@
+Report - Version 5
+Adam Gaudreau
+
+======================
+ What I Did This Week
+======================
+The biggest thing I did this week was add textures to the floor, spawnable objects, and the sun (the first two of which are configurable).
+The floor's texture can be changed at any time, and an object can be set to have a texture before it spawns.
+Speaking of the floor, you can now change the size of it. (How-To in the manual).
+The sun now has a configurable intensity setting.
+You can set objects to always rotate so you can see some quick animations.
+

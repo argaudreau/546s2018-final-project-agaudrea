@@ -53,3 +53,17 @@ btnManual4.addEventListener('click', function() {
 btnView4.addEventListener('click', function() {
   window.location = "/~agaudrea/427546s2018/final-project/4/index.html";
 });
+
+// Week 5
+let btnReport5 = document.getElementById('button-report-5'),
+  btnManual5 = document.getElementById('button-manual-5'),
+  btnView5 = document.getElementById('button-view-5');
+btnReport5.addEventListener('click', function() {
+  window.location = "/~agaudrea/427546s2018/final-project/5/report-5.txt";
+});
+btnManual5.addEventListener('click', function() {
+  window.location = "/~agaudrea/427546s2018/final-project/5/manual-5.txt";
+});
+btnView5.addEventListener('click', function() {
+  window.location = "/~agaudrea/427546s2018/final-project/5/index.html";
+});
