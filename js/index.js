@@ -67,3 +67,17 @@ btnManual5.addEventListener('click', function() {
 btnView5.addEventListener('click', function() {
   window.location = "/~agaudrea/427546s2018/final-project/5/index.html";
 });
+
+// Final
+let btnReportFinal = document.getElementById('button-report-final'),
+  btnManualFinal = document.getElementById('button-manual-final'),
+  btnViewFinal = document.getElementById('button-view-final');
+btnReportFinal.addEventListener('click', function() {
+  window.location = "/~agaudrea/427546s2018/final-project/final/report-final.txt";
+});
+btnManualFinal.addEventListener('click', function() {
+  window.location = "/~agaudrea/427546s2018/final-project/final/manual-final.txt";
+});
+btnViewFinal.addEventListener('click', function() {
+  window.location = "/~agaudrea/427546s2018/final-project/final/index.html";
+});

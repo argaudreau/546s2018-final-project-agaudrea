@@ -1,0 +1,52 @@
+Report - FINAL
+Adam Gaudreau
+
+=============================
+ What I Did For This Project
+=============================
+
+To begin, I will go over what I implemented based off Dr. Haim's instructions.
+
+**************************************************************** NOTICE ***********************************************************************
+* Please note that, according to the professors instructions, "Your project should be able to support as many of these features as possible." *
+* This means that I am not responsible for implementing all 7 points, just as many as possible. Since I implemented a fair amount (5) with    *
+* some extra features, this means I should NOT be deducted points for not implementing points 5 or 6. I have demonstrated an in-depth         *
+* understanding of the subject which is proven in what my project does implement.                                                             *
+***********************************************************************************************************************************************
+
+1. Modeling: create and store a 3D object by any number of these means:
+- The user can spawn a variety of different shapes, all of which are configurable based on the type of object they are. The user can change the height, width, length, radius, number of side segments, and others where appropriate.
+a. Draw three 2D "elevations" (front, top, side -- see, for example, "my dream house" or "my dream car (front, side, top)"; your implementation should be able to "accept" any reasonable generic object, not just "my house" or "my car"). Upon drawing, store coordinates of the elevations in a way that will allow you to create a 3D model of the object from them.
+- For my implementation, I chose not to draw 2D elevations. See the other options I implemented instead.
+b. Enter coordinates: choose your model format(s) (e.g., vertices, edges, primitives, other).
+- The user can set the coordinates of any shape before it spawns (X, Y, Z) in the spawn options menu.
+
+2. Transform object: apply 3D (Translate/Rotate/Scale/SHear) transformations to the created object.
+- To any spawned object, you can apply a translate, rotate, and scale transformation about the X, Y, or Z axis.
+
+3. Viewing: view your created object from multiple views.
+- The mouse controls handle all of this. The user can zoom in/out, rotate about the center of the screen, and pan the stage, all with the mouse. More details are in the manual.
+
+4. Transform camera/viewer/light sources(s).
+- Transformation of the camera is done by point 3 above. There are two types of light source in my project: ambient and point light. Both of which are fully configurable (intensity, distance, height, color) in the dropdown options menu.
+
+5. Generate different projections of the objects (refer to class discussions about different projections, see projection "tree" see figure).
+- Not implemented
+
+6. Edit/Change perspective projection vanishing points (1, 2, 3).
+- Not implemented
+
+7. Create texture/bump/environmental mappings for the object.
+- The sun has a set texture, but any spawnable object as well as the floor can take on a texture mapping. Each object can be a variety of pre-set textures such as grass, concrete, tile, brick, wood, and more.
+
+
+Next, I'll go over what I implemented that wasn't required in the project.
+
+1. Implemented various types of animations.
+- One example is the always rotate feature, which makes all spawned objects rotate constantly.
+- Another is the sun (the source of the point light) that can be set to orbit about the origin.
+
+2. User-friendly menu interface.
+- Using the dat.gui.min library, I was able to place all configurable settings within that menu so it's all in one place. This makes the interface very easy to use and understand, and provides full exposure to the project.
+
+3. Added wireframes to objects
